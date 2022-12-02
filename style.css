@@ -1,0 +1,51 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  background-color: #111149;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.team {
+  font-family: Verdana;
+  color: #eeeeee;
+  font-size: 2.2rem;
+}
+
+.big-square {
+  width: 15em;
+  height: 15em;
+  background-color: #000000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-pts,
+#guest-pts {
+  font-family: "Cursed Timer ULiL", sans-serif;
+  color: #f94f6d;
+  font-size: 9rem;
+}
+.small-squares {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 26px;
+}
+
+.btn {
+  width: 3em;
+  height: 3em;
+  font-family: "Cursed Timer ULiL", sans-serif;
+  border: 2px solid #9aabd8;
+  border-radius: 5px;
+  color: #9aabd8;
+  background-color: #111149;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
